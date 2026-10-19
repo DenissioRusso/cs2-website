@@ -1,0 +1,139 @@
+body {
+
+    font-family: Arial, sans-serif;
+    background-color: #000000 !important;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    color: rgb(255, 123, 0);
+    align-items: center;
+    text-align: center;
+    letter-spacing: 20px;
+}
+.rectangle {
+    width: 2560px;
+    height: 622px;
+    background-color: rgb(255, 136, 0);
+
+    position: absolute;
+    left: 0px;
+    top: 78px;
+    z-index: -2;
+
+}
+
+.rectangle2 {
+    width: 2850px;
+    height: 800px;
+    background-color: rgb(0, 0, 0);
+
+    position: absolute;
+    left: 0px;
+    top: 650px;
+    z-index: -3;
+}
+.trBox1 {
+    width: 750px;
+    height:600px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 100px;
+
+    position: absolute;
+    left: 100px;
+    top: 750px;
+    z-index: 1;
+}
+.trBox2 {
+    width: 750px;
+    height:600px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 100px;
+
+    position: absolute;
+    left: 1000px;
+    top: 750px;
+    z-index: 1;
+}
+
+.trBox3 {
+    width: 750px;
+    height:600px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 100px;
+
+    position: absolute;
+    left: 1900px;
+    top: 750px;
+    z-index: 1;
+}
+
+.my-gif {
+    position: absolute;
+    top: 78px;
+    left: 1900px;
+    width: 935px;
+    height: 622px;
+
+}
+.banner {
+    position: absolute;
+    top: 78px;
+    left: 0px;
+    height: 622px;
+    width: 2000px;
+    z-index: -1;
+
+}
+h2 {
+    color: rgb(255, 60, 0);
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    z-index: 1;
+    font-size: 100px;
+}
+
+.my-button {
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    color: rgb(248, 91, 0);
+    padding: 20px 40px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 50px;
+    position: absolute;
+    top: 400px;
+    left: 550px;
+}
+
+.my-button:hover {
+    background-color: rgb(172, 172, 172);
+}
+
+.economy {
+    color: rgb(248, 91, 0);
+    position: absolute;
+    top: 860px;
+    left: 160px;
+    z-index: 1;
+    font-size: 80px;
+}
+.weapons {
+    color: rgb(248, 91, 0);
+    position: absolute;
+    top: 860px;
+    left: 1060px;
+    z-index: 1;
+    font-size: 80px;
+}
+.maps {
+    color: rgb(248, 91, 0);
+    position: absolute;
+    top: 860px;
+    left: 1960px;
+    z-index: 1;
+    font-size: 80px;
+}
